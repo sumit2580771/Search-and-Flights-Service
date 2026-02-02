@@ -16,7 +16,7 @@ const create = async (req,res) => {
         return res.status(500).json({
             data:{},
             success:false,
-            message:"Not able to create a flight",
+            message:"Not able to make a flight",
             err:error
         });
     
